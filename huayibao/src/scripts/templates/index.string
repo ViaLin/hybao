@@ -1,0 +1,12 @@
+<div class="m-index">
+  <div class="l-container"></div>
+  <footer>
+    <ul>
+      <li class="active" action-type="switch.tabs" data-tag="home"><i class="yo-ico">&#xe602;</i></li>
+      <li action-type="switch.tabs" data-tag="theme"><i class="yo-ico">&#x3553;</i></li>
+      <li action-type="switch.tabs" data-tag="pic"><i class="yo-ico">&#xe650;</i></li>
+      <li action-type="switch.tabs" data-tag="search"><i class="yo-ico">&#xe62e;</i></li>
+      <li action-type="switch.tabs" data-tag="my"><i class="yo-ico">&#xe608;</i></li>
+    </ul>
+  </footer>
+</div>

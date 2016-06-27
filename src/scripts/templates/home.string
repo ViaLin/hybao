@@ -1,0 +1,59 @@
+<div class="m-home">
+  <header>
+    <ul>
+      <li><img src="images/x70x70_logo.png"/></li>
+      <li><i>画易租</i></li>
+      <li class="yo-ico">&#xe605;</li>
+    </ul>
+  </header>
+  <div class="swiper-container">
+           <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/x410x160.png"/>
+  		      </div>
+              <div class="swiper-slide">
+			  	<img src="images/x410x1602.png"/>
+			  </div>
+
+           </div>
+           <!-- 如果需要分页器 -->
+           <div class="swiper-pagination"></div>
+        </div>
+
+	 <section spa-widget="scroll">
+
+        <nav>
+        	<div class="classify">
+  				<ul>
+  					<li><i><img src="images/chinese_oil.png"/></i><b>油画</b></li>
+  					<li><i><img src="images/chinese_painting.png"/></i><b>国画</b></li>
+  					<li><i><img src="images/chinese_lnk.png"/></i><b>当代水墨</b></li>
+  					<li><i><img src="images/chinese_calligraphy.png"/></i><b>书法</b></li>
+  				</ul>
+  			</div>
+        </nav>
+
+  		<div class="theme">
+  			<div class="theme_cont">
+  				<div class="recom">
+  					<i>精品推荐</i>
+  				</div>
+  				<div class="recom_cont">
+  					<div class="recom_lc">
+  						<img src="images/recomleft.jpg"/>
+  					</div>
+  					<div class="recom_rc">
+  						<div class="recom_rt">
+  							<img src="images/recomrt.jpg"/>
+  						</div>
+  						<div class="recom_rb">
+  							<img src="images/recomrb.jpg"/>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+
+
+     </section>
+</div>

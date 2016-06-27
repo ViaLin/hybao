@@ -1,0 +1,147 @@
+.m-index {
+  .l-container {
+    .m-home {
+      @include flexbox();
+      @include flex-direction(column);
+      height: 100%;
+      > * {
+        width: 100%;
+      }
+      header {
+        background: #fff;
+        height: .44rem;
+        ul {
+          @include flexbox();
+          height: 100%;
+          li {
+            height: 100%;
+            &:not(:nth-child(2)){
+              width: 0.6rem;
+              text-align: center;
+              line-height: .44rem;
+              i {
+                  font-size: .18rem;
+                  color:#fff;
+              }
+            }
+            &:nth-child(1){
+                img{
+                    width: 50%;
+                    height: 50%;
+                }
+            }
+            &:nth-child(3){
+                font-size: 0.01rem;
+            } 
+            &:nth-child(2) {
+              @include flex(1);
+              width: 100%;
+              @include flexbox();
+              @include justify-content(center);
+              @include align-items(center);
+                i {
+                  font-size: .20rem;
+                  color:#000;
+                  display: block;
+                  
+              }
+            }
+          }
+        }
+      }
+      
+      section{
+          
+              nav{
+                margin-top:.05rem ;
+                height: .9rem;
+                background-color: #fff;
+                ul {
+                  @include flexbox();
+                  @include box-sizing(border-box);
+                  @include border(1px 0 0 0, #d9d9d9);
+                  width: 100%;
+                  height: 100%;
+                  li {
+                     @include flex(1);
+                    @include flexbox();
+                    @include flex-direction(column);
+                    @include align-items(center);
+                    @include justify-content(center);
+                    @include box-sizing(border-box);
+                      padding-top: .1rem;
+                   
+                    i, b {
+                      display: block;
+                      color: #000;
+                    }
+                    i {
+                      font-size: .2rem;
+                      line-height: .2rem;
+                      img{
+                          margin: 0 auto;
+                          display: block;
+                          width: 60%;
+                          height: 60%;
+                      }
+                    }
+                    b {
+                        text-align: center;
+                      font-weight: normal;
+                      font-size: .12rem;
+                      color: gray;
+                      padding-top: .03rem;
+                    }
+                
+                    
+                  }
+                }
+              }    
+              .theme{
+                    margin-top:.05rem ;
+                    height: .9rem;
+                    
+                    .theme_cont{
+                        
+                        .recom{
+                              height: .3rem;
+                              background: #fff;
+                              margin: 0 auto;
+                              @include flexbox()
+                              @include box-sizing(border-box);
+                              @include border(1px 0 1px 10px, #f66);
+                              width: 98%;
+                              
+                              i{
+                                  line-height: .3rem;
+                                  color: gray;
+                                  display: block;
+                                  font-size: .14rem;
+                                  font-weight: 600;
+                                  margin-left: .1rem;
+                              }
+                            
+                        }
+                        
+                        .recom_cont{
+                            padding-top:.05rem ;
+                            height: .9rem;
+                            width: 98%;
+                            margin: 0 auto;
+                            @include flexbox()
+                            @include box-sizing(border-box);
+                            .recom_lc{
+                                @include flex(1);
+                                img{
+                                    width: 50%;
+                                    height: 50%;
+                                }
+                            }
+                            
+                        }
+                    }
+              }      
+          }
+        }
+      }
+    }
